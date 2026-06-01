@@ -224,3 +224,5 @@ data/raw/
 models/
 venv/
 .DS_Store
+
+data/processed/
