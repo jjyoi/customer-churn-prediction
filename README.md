@@ -1,17 +1,17 @@
 # customer churn prediction
 
-predicting which telecom customers are likely to cancel their service, with model explainability via SHAP so predictions can be understood by nontechnical stakeholders.
+predicting which telecom customers are likely to cancel their service + model explainability w SHAP (predictions can be understood by nontechnical audience)
 
-cover full ML lifecycle: raw data to a deployed interactive dashboard
+covers full ML lifecycle: raw data --> deployed interactive dashboard (streamlit) 
 
 --
 
 ## what this project does
 
 takes a telecom customer's account info (contract type, charges, tenure, services) and outputs:
-- a churn probability score (0–100%)
-- top factors driving that prediction (via SHAP)
-- a plain english explanation of why model flagged them as high risk
+- churn probability score (0–100%)
+- top factors driving prediction (via SHAP)
+- plain english explanation of why model flagged them as high risk
 
 --
 
@@ -37,7 +37,6 @@ customer-churn-prediction/
 ## dataset
 
 [IBM Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) via Kaggle
-
 - 7,043 customers, 21 features
 - target: `Churn` (yes/no) — ~26.6% positive rate
 - download `WA_Fn-UseC_-Telco-Customer-Churn.csv` and save to `data/raw/telco_churn.csv`
