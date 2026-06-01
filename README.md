@@ -44,7 +44,7 @@ customer-churn-prediction/
 
 --
 
-## what we found in EDA (phase 1)
+## what we found in EDA 
 
 - **class imbalance**: only 26.6% of customers churned, rest stayed
 - **contract type** is the strongest signal; month to month customers churn at ~43% vs ~3% for two year contracts
@@ -56,7 +56,7 @@ customer-churn-prediction/
 
 --
 
-## what we built in feature engineering (phase 2)
+## what we built in feature engineering
 
 - fixed `TotalCharges` dtype (ships as string with 11 blank rows)
 - encoded binary yes/no columns to 1/0
