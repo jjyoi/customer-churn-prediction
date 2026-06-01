@@ -27,7 +27,7 @@ customer-churn-prediction/
 │   ├── 03_modeling.ipynb   # model training + comparison (coming soon)
 │   └── 04_shap.ipynb       # explainability analysis (coming soon)
 ├── models/                 # saved model + preprocessor artifacts
-├── app/                    # streamlit dashboard (coming soon)
+├── app.py                  # streamlit dashboard 
 ├── requirements.txt
 └── README.md
 ```
