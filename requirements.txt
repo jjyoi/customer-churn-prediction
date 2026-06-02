@@ -1,4 +1,5 @@
 appnope==0.1.4
+streamlit==1.58.0
 asttokens==3.0.1
 cloudpickle==3.1.2
 comm==0.2.3
